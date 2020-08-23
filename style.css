@@ -16,6 +16,11 @@ main {
     position: relative;
 }
 
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
 .menu li {
     margin-top: 6px;
     padding: 10px;
@@ -29,7 +34,7 @@ main {
 
 .shape {
     border: solid 3px var(--ramka);
-    width: 70%;
+    /* width: 70%; */
     opacity: 0;
     padding: 10px;
     position: absolute;
@@ -62,7 +67,12 @@ main {
         width: 50px;
         height: 6px;
         padding-top: 3px;
-        /* display:table-cell;
-        vertical-align: middle; */
+    }
+}
+
+@media (max-width: 320px) {
+    ul {
+        width: 55px;
+        display: block;
     }
 }

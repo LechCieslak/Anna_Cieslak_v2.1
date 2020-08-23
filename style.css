@@ -7,7 +7,7 @@ body {
     --tlo: #4C6464;
     --text: #C5B358;
     --ramka: #7F784E;
-    background-color: #4C6464;
+    background-color: black;
     color: var(--text);
     animation: backgroundEffect 3s forwards;
 }
@@ -24,6 +24,7 @@ main {
     list-style-type: none;
     width: 120px;
     cursor: pointer;
+    text-align:center;
 }
 
 .shape {
@@ -36,4 +37,33 @@ main {
 
 .nowa {
     opacity: 1;
+}
+
+@keyframes backgroundEffect {
+    100% {
+        background-color: var(--tlo);
+    }
+}
+
+/* style css - duże ekrany
+@media (min-width: 1100px) {
+    body {
+        font-size: 30px;
+    }
+} */
+
+@media (max-width: 600px) {
+    body {
+        /* style css - tel. pionowo */
+        font-size: 10px;
+        width: 90%;
+    }
+
+    .menu li {
+        width: 60px;
+        height: 4px;
+        padding-top: 2px;
+        /* display:table-cell;
+        vertical-align: middle; */
+    }
 }

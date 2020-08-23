@@ -59,9 +59,9 @@ main {
     }
 
     .menu li {
-        width: 60px;
-        height: 4px;
-        padding-top: 2px;
+        width: 50px;
+        height: 6px;
+        padding-top: 3px;
         /* display:table-cell;
         vertical-align: middle; */
     }

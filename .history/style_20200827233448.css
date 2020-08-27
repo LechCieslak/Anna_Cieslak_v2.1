@@ -14,6 +14,10 @@ body {
     animation: backgroundEffect 3s forwards;
 }
 
+.bodyCover {
+    /* background-color: red; */
+}
+
 main {
     position: relative;
 }
@@ -47,13 +51,13 @@ ul {
 }
 
 @keyframes backgroundEffect {
-    /* 30% {
+    50% {
         background-color: var(--tlo);
-    } */
+    }
     100% {
         background-image: url("images/background-poz.jpg");
 
-    } 
+    }
 }
 
 /* style css - duże ekrany

@@ -10,8 +10,9 @@ body {
     /* background-image: url("images/background-poz.jpg"); */
     /* background-position: center; */
     background-color: black;
+    background-color: #fff000;
     color: var(--text);
-    animation: backgroundEffect 3s forwards;
+    /* animation: backgroundEffect 3s forwards; */
 }
 
 main {
@@ -47,10 +48,10 @@ ul {
 }
 
 @keyframes backgroundEffect {
-    /* 30% {
+    30% {
         background-color: var(--tlo);
-    } */
-    100% {
+    }
+    60% {
         background-image: url("images/background-poz.jpg");
 
     } 

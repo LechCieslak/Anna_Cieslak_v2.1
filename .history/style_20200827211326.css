@@ -7,7 +7,6 @@ body {
     --tlo: #4C6464;
     --text: #C5B358;
     --ramka: #7F784E;
-    /* background-image: url("images/background-poz.jpg"); */
     /* background-position: center; */
     background-color: black;
     color: var(--text);
@@ -47,13 +46,16 @@ ul {
 }
 
 @keyframes backgroundEffect {
-    /* 30% {
-        background-color: var(--tlo);
-    } */
+    50% {
+        /* background-color: var(--tlo); */
+        opacity: 0;
+        
+    }
     100% {
-        background-image: url("images/background-poz.jpg");
+        opacity: 1;
+        /* background-image: url("images/background-poz.jpg"); */
 
-    } 
+    }
 }
 
 /* style css - duże ekrany

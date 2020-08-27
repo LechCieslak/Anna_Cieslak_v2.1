@@ -47,13 +47,13 @@ ul {
 }
 
 @keyframes backgroundEffect {
-    /* 30% {
+    30% {
         background-color: var(--tlo);
-    } */
-    100% {
+    }
+    60% {
         background-image: url("images/background-poz.jpg");
 
-    } 
+    } */
 }
 
 /* style css - duże ekrany

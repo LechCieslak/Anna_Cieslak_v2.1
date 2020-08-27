@@ -7,11 +7,11 @@ body {
     --tlo: #4C6464;
     --text: #C5B358;
     --ramka: #7F784E;
-    /* background-image: url("images/background-poz.jpg"); */
+    background-image: url("images/background-poz.jpg");
     /* background-position: center; */
-    background-color: black;
+    /* background-color: black; */
     color: var(--text);
-    animation: backgroundEffect 3s forwards;
+    /* animation: backgroundEffect 3s forwards; */
 }
 
 main {
@@ -47,13 +47,9 @@ ul {
 }
 
 @keyframes backgroundEffect {
-    /* 30% {
-        background-color: var(--tlo);
-    } */
     100% {
-        background-image: url("images/background-poz.jpg");
-
-    } 
+        background-color: var(--tlo);
+    }
 }
 
 /* style css - duże ekrany
@@ -66,7 +62,7 @@ ul {
 @media (max-width: 600px) {
     body {
         /* style css - tel. pionowo */
-        background-image: url("images/background-pion.jpg");
+        background-image: url("images/background-poz.jpg");
         font-size: 10px;
     }
 

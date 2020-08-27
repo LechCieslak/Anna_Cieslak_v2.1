@@ -7,8 +7,7 @@ body {
     --tlo: #4C6464;
     --text: #C5B358;
     --ramka: #7F784E;
-    background-image: url("images/background-poz.jpg");
-    background-position: center;
+    back
     /* background-color: black; */
     color: var(--text);
     /* animation: backgroundEffect 3s forwards; */

@@ -68,6 +68,8 @@ ul {
 @keyframes backgroundEffect {
     100% {
         opacity: 1;
+        background-image: url("images/background-poz.jpg");
+
     } 
 }
 
@@ -81,7 +83,7 @@ ul {
 @media (max-width: 600px) {
     body {
         /* style css - tel. pionowo */
-        /* background-image: url("images/background-pion.jpg"); */
+        background-image: url("images/background-pion.jpg");
         font-size: 10px;
     }
 

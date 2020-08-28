@@ -11,6 +11,7 @@ body {
     /* background-position: center; */
     background-color: black;
     color: var(--text);
+    /* animation: backgroundEffect 3s forwards; */
 }
 
 .container {
@@ -19,6 +20,7 @@ body {
 }
 
 .container h1{
+    padding: 200px;
     position: relative;
     z-index: 2;
 }
@@ -29,8 +31,7 @@ body {
     top: 0;
     width: 100%;
     height: auto;
-    opacity: 0;
-    animation: backgroundEffect 3s forwards;
+    opacity: 0.5;
 }
 
 main {
@@ -66,8 +67,12 @@ ul {
 }
 
 @keyframes backgroundEffect {
+    /* 30% {
+        background-color: var(--tlo);
+    } */
     100% {
-        opacity: 1;
+        background-image: url("images/background-poz.jpg");
+
     } 
 }
 
@@ -81,7 +86,7 @@ ul {
 @media (max-width: 600px) {
     body {
         /* style css - tel. pionowo */
-        /* background-image: url("images/background-pion.jpg"); */
+        background-image: url("images/background-pion.jpg");
         font-size: 10px;
     }
 

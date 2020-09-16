@@ -7,30 +7,10 @@ body {
     --tlo: #4C6464;
     --text: #C5B358;
     --ramka: #7F784E;
-    /* background-image: url("images/background-poz.jpg"); */
-    /* background-position: center; */
+    background-position-x: center;
     background-color: black;
     color: var(--text);
-}
-
-.container {
-    position: relative;
-    overflow: hidden;
-}
-
-.container h1{
-    position: relative;
-    z-index: 2;
-}
-
-.container img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0;
-    animation: backgroundEffect 3s forwards;
+    animation: backgroundEffPoz 3s forwards;
 }
 
 main {
@@ -50,7 +30,7 @@ ul {
     list-style-type: none;
     width: 120px;
     cursor: pointer;
-    text-align:center;
+    text-align: center;
 }
 
 .shape {
@@ -59,15 +39,21 @@ ul {
     opacity: 0;
     padding: 10px;
     position: absolute;
+    text-align: justify;
 }
 
 .nowa {
     opacity: 1;
 }
 
-@keyframes backgroundEffect {
+@keyframes backgroundEffPoz {
     100% {
-        opacity: 1;
+            background-image: url("images/background-poz.jpg");
+    } 
+}
+@keyframes backgroundEffPion {
+    100% {
+            background-image: url("images/background-pion.jpg");
     } 
 }
 
@@ -83,6 +69,8 @@ ul {
         /* style css - tel. pionowo */
         /* background-image: url("images/background-pion.jpg"); */
         font-size: 10px;
+        background-position-x: center;
+        animation: backgroundEffPion 3s forwards;
     }
 
     .menu li {

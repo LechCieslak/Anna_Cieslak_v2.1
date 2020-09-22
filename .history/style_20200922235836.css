@@ -9,17 +9,12 @@ body {
     --ramka: #7F784E;
     background-position-x: center;
     color: var(--text);
-    background-image: url("images/background-poz.jpg");
+    /* background-image: url("images/background-poz.jpg"); */
 }
 
 ul {
     display: flex;
     justify-content: space-around;
-}
-
-img {
-    width: 50%;
-    height: 50%;
 }
 
 .menu li {

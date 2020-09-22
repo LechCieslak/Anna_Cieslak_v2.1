@@ -17,9 +17,10 @@ ul {
     justify-content: space-around;
 }
 
-img {
-    width: 50%;
-    height: 50%;
+.oMnie p {
+    display: inline-block;
+    background-color: red;
+    width: 250px;
 }
 
 .menu li {

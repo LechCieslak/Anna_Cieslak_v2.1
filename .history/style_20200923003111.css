@@ -22,6 +22,11 @@ img {
     height: 50%;
 }
 
+.oMnie p {
+    display: inline-block;
+    background-color: red;
+}
+
 .menu li {
     margin-top: 6px;
     padding: 10px;

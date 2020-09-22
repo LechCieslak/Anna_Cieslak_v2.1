@@ -22,6 +22,11 @@ img {
     height: 50%;
 }
 
+.oMnie div {
+    display: inline-block;
+    background-color: ;
+}
+
 .menu li {
     margin-top: 6px;
     padding: 10px;

@@ -7,7 +7,7 @@ body {
     --tlo: #4C6464;
     --text: #C5B358;
     --ramka: #7F784E;
-    background-position-x: center;
+    /* background-position-x: center; */
     color: var(--text);
     background-image: url("images/background-poz.jpg");
 }
@@ -15,11 +15,6 @@ body {
 ul {
     display: flex;
     justify-content: space-around;
-}
-
-img {
-    width: 50%;
-    height: 50%;
 }
 
 .menu li {

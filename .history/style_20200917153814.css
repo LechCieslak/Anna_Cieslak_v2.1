@@ -7,9 +7,28 @@ body {
     --tlo: #4C6464;
     --text: #C5B358;
     --ramka: #7F784E;
-    background-position-x: center;
+    /* background-position-x: center;
+    background-color: black; */
     color: var(--text);
-    background-image: url("images/background-poz.jpg");
+    animation: backgroundEffPoz 3s forwards;
+    display: block;
+    position: relative;
+}
+
+body::after {
+    content: "";
+    background: url("images/AC_bio.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+main {
+    position: relative;
 }
 
 ul {
@@ -30,6 +49,7 @@ ul {
 
 .shape {
     border: solid 3px var(--ramka);
+    /* width: 70%; */
     opacity: 0;
     padding: 10px;
     position: absolute;
@@ -38,6 +58,17 @@ ul {
 
 .nowa {
     opacity: 1;
+}
+
+@keyframes backgroundEffPoz {
+    100% {
+            background-image: url("images/background-poz.jpg");
+    } 
+}
+@keyframes backgroundEffPion {
+    100% {
+            background-image: url("images/background-pion.jpg");
+    } 
 }
 
 /* style css - duże ekrany
@@ -50,9 +81,10 @@ ul {
 @media (max-width: 600px) {
     body {
         /* style css - tel. pionowo */
+        /* background-image: url("images/background-pion.jpg"); */
         font-size: 10px;
         background-position-x: center;
-        background-image: url("images/background-pion.jpg");
+        animation: backgroundEffPion 3s forwards;
     }
 
     .menu li {

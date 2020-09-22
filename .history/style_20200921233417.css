@@ -8,6 +8,7 @@ body {
     --text: #C5B358;
     --ramka: #7F784E;
     background-position-x: center;
+    background-color: black;
     color: var(--text);
     background-image: url("images/background-poz.jpg");
 }

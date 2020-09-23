@@ -16,6 +16,9 @@ ul {
     display: flex;
     justify-content: space-around;
 }
+p {
+    background-color: red;
+}
 
 img {
     width: 90%;

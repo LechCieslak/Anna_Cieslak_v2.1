@@ -9,7 +9,7 @@ body {
     --ramka: #7F784E;
     background-position-x: center;
     color: var(--text);
-    background-image: url("images/poziom.png");
+    background-image: url("images/background-poz.jpg");
 }
 
 ul {
@@ -46,9 +46,6 @@ img {
 }
 
 /* RWD
-*********
-************
-********************
 */
 
 

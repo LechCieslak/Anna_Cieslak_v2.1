@@ -9,7 +9,7 @@ body {
     --ramka: #7F784E;
     background-position-x: center;
     color: var(--text);
-    background-image: url("images/poziom.png");
+    background-image: url("images/");
 }
 
 ul {
@@ -68,7 +68,7 @@ img {
         /* style css - tel. pionowo */
         font-size: 10px;
         background-position-x: center;
-        background-image: url("images/background-pion.jpg");
+        background-image: url("images/pion.jpg");
     }
 
     .menu li {

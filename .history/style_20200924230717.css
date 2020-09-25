@@ -9,7 +9,7 @@ body {
     --ramka: #7F784E;
     background-position-x: center;
     color: var(--text);
-    background-image: url("images/poziom.png");
+    background-image: url("images/background-poz.jpg");
 }
 
 ul {
@@ -45,22 +45,11 @@ img {
     opacity: 1;
 }
 
-/* RWD
-*********
-************
-********************
-*/
-
-
-@media (min-width: 992px) {
-    /* style css */
-
-} 
-
-
-@media (max-width: 992px) and (min-width: 577px) {
-    /* style css */
-
+/* style css - duże ekrany*/
+@media (max-width: 576px) and (min-width: 577px) {
+    body {
+        font-size: 30px;
+    }
 } 
 
 @media (max-width: 576px) and (min-width:321px) {

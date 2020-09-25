@@ -9,7 +9,7 @@ body {
     --ramka: #7F784E;
     background-position-x: center;
     color: var(--text);
-    background-image: url("images/poziom.png");
+    background-image: url("images/background-poz.jpg");
 }
 
 ul {
@@ -45,11 +45,7 @@ img {
     opacity: 1;
 }
 
-/* RWD
-*********
-************
-********************
-*/
+/* style css - duże ekrany*/
 
 
 @media (min-width: 992px) {

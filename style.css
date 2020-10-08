@@ -7,9 +7,8 @@ body {
     --tlo: #4C6464;
     --text: #C5B358;
     --ramka: #7F784E;
-    background-position-x: center;
     color: var(--text);
-    background-image: url("images/poziom.png");
+    background-color:#161f1a;
 }
 
 ul {
@@ -55,15 +54,25 @@ img {
 @media (min-width: 992px) {
     /* style css */
 
+    body {
+        background-repeat: no-repeat;
+        background-image: url("images/background-poz.jpg");
+    }
+
 } 
 
 
 @media (max-width: 992px) and (min-width: 577px) {
     /* style css */
 
+    body {
+        background-repeat: no-repeat;
+        background-image: url("images/background-poz.jpg");
+    }
+
 } 
 
-@media (max-width: 576px) and (min-width:321px) {
+@media (max-width: 576px) and (min-width: 321px) {
     body {
         /* style css - tel. pionowo */
         font-size: 10px;
@@ -79,6 +88,12 @@ img {
 }
 
 @media (max-width: 320px) {
+    body {
+        font-size: 10px;
+        background-position-x: center;
+        background-image: url("images/background-pion.jpg");
+    }
+
     ul {
         width: 55px;
         display: block;

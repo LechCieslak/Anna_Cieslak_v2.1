@@ -59,6 +59,10 @@ img {
         background-image: url("images/background-poz.jpg");
     }
 
+    img {
+        width: 270px;
+    }
+
 } 
 
 
@@ -68,6 +72,10 @@ img {
     body {
         background-repeat: no-repeat;
         background-image: url("images/background-poz.jpg");
+    }
+    
+    img {
+        width: 270px;
     }
 
 } 

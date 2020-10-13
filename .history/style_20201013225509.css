@@ -34,6 +34,8 @@ img {
 
 .shape {
     border: solid 3px var(--ramka);
+
+
     opacity: 0;
     padding: 10px;
     position: absolute;

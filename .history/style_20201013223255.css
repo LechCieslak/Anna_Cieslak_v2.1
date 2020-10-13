@@ -34,15 +34,14 @@ img {
 
 .shape {
     border: solid 3px var(--ramka);
+    margin-right: 8px;
+    width: 98%;
     opacity: 0;
     padding: 10px;
     position: absolute;
     text-align: justify;
     background-color: #161f1a;
-
-    margin-right: 8px;
-    width: 87%;
-
+    display: block;
 }
 
 .nowa {

@@ -25,7 +25,7 @@ img {
     margin-top: 6px;
     padding: 10px;
     display: inline-block;
-    border: solid 2px var(--ramka);
+    border: solid 3px var(--ramka);
     list-style-type: none;
     width: 120px;
     cursor: pointer;
@@ -33,7 +33,7 @@ img {
 }
 
 .shape {
-    border: solid 2px var(--ramka);
+    border: solid 3px var(--ramka);
     opacity: 0;
     padding: 10px;
     position: absolute;

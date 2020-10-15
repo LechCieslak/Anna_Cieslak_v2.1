@@ -65,7 +65,7 @@ img {
 
     body {
         background-repeat: no-repeat;
-        background-image: url("images/background_poz.jpg");
+        background-image: url("images/background-poz.jpg");
     }
 
     img {
@@ -80,7 +80,7 @@ img {
 
     body {
         background-repeat: no-repeat;
-        background-image: url("images/background_poz.jpg");
+        background-image: url("images/background-poz.jpg");
     }
     
     img {
@@ -94,7 +94,7 @@ img {
         /* style css - tel. pionowo */
         font-size: 10px;
         background-position-x: center;
-        background-image: url("images/background_pion.jpg");
+        background-image: url("images/background-pion.jpg");
     }
 
     .menu li {
@@ -108,7 +108,7 @@ img {
     body {
         font-size: 10px;
         background-position-x: center;
-        background-image: url("images/background_pion.jpg");
+        background-image: url("images/background-pion.jpg");
     }
 
     ul {

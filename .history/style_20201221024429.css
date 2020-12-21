@@ -11,6 +11,11 @@ body {
     background-color:#161f1a;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
 img {
     width: 50%;
     height: 50%;
@@ -78,6 +83,10 @@ img {
         background-image: url("images/background_poz.jpg");
     }
 
+    ul {
+        justify-content: space-between;
+    }
+    
     img {
         width: 270px;
     }
@@ -90,11 +99,6 @@ img {
         font-size: 10px;
         background-position-x: center;
         background-image: url("images/background_pion.jpg");
-    }
-
-    ul {
-        display: flex;
-        justify-content: space-between;
     }
 
     .menu li {
@@ -112,8 +116,6 @@ img {
     }
 
     ul {
-        display: flex;
-        justify-content: space-between;
         width: 55px;
         display: block;
     }

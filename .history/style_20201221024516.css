@@ -92,11 +92,6 @@ img {
         background-image: url("images/background_pion.jpg");
     }
 
-    ul {
-        display: flex;
-        justify-content: space-between;
-    }
-
     .menu li {
         width: 50px;
         height: 8px;
@@ -112,8 +107,6 @@ img {
     }
 
     ul {
-        display: flex;
-        justify-content: space-between;
         width: 55px;
         display: block;
     }

@@ -11,6 +11,8 @@ body {
     background-color:#161f1a;
 }
 
+
+
 img {
     width: 50%;
     height: 50%;
@@ -92,11 +94,6 @@ img {
         background-image: url("images/background_pion.jpg");
     }
 
-    ul {
-        display: flex;
-        justify-content: space-between;
-    }
-
     .menu li {
         width: 50px;
         height: 8px;
@@ -112,8 +109,6 @@ img {
     }
 
     ul {
-        display: flex;
-        justify-content: space-between;
         width: 55px;
         display: block;
     }
